@@ -476,7 +476,7 @@ def get_answer(question: str):
     docs      = retriever.invoke(question)
     context   = clean_context(docs)
     prompt    = build_prompt(context, question)
-    answer    = llm.invoke(prompt).strip()
+    answer    = llm.invoke(prompt).content.strip()
     citations = get_citations(docs)
     return answer, citations
 
