@@ -23,7 +23,7 @@ TOP_K           = 4
 DATA_PATH       = "data"
 DB_PATH         = "db"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-GROQ_MODEL      = "llama3-70b-8192"   # Free, fast, excellent for legal Q&A
+GROQ_MODEL      = "llama-3.3-70b-versatile"   # Free, fast, excellent for legal Q&A
 
 # Chat history is saved here as a JSON file.
 # This file persists across restarts and should be
