@@ -379,7 +379,7 @@ def load_llm():
         model=GROQ_MODEL,
         api_key=st.secrets["GROQ_API_KEY"],
         temperature=0.1,
-        max_tokens=300,
+        max_tokens=200,
     )
 
 
@@ -457,7 +457,7 @@ Context:
 Question: {question} [/INST]"""
 
 
-def clean_context(docs, max_chars=1400):
+def clean_context(docs, max_chars=800):
     """Combine retrieved chunks into clean text, capped at max_chars."""
     combined, total = [], 0
     for doc in docs:
