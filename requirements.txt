@@ -7,11 +7,4 @@ pdfplumber
 langchain-huggingface
 sentence-transformers==2.7.0
 transformers==4.40.0
-torch==2.2.2streamlit
-langchain-community
-langchain-text-splitters
-langchain-huggingface
-langchain-groq
-faiss-cpu
-pdfplumber
-sentence-transformers
+torch==2.2.2
